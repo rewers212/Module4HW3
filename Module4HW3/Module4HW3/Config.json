@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=192.168.15.9;Database=testdb;Trusted_Connection=True;"
+  }
+}
