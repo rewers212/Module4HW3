@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace Module4HW3
 {
-    public class EployeeProject
+    public class EmployeeProject
     {
-        public int EmloyeeProjectId { get; set; }
+        public int EmployeeProjectId { get; set; }
         public decimal Rate { get; set; }
         public DateTime? StartedDate { get; set; }
-        public int EmployyedId { get; set; }
+        public int EmployeeId { get; set; }
         public int ProjectId { get; set; }
+        public Employee Employee { get; set; }
+        public Project Project { get; set; }
     }
 }

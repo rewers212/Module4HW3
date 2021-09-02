@@ -12,5 +12,6 @@ namespace Module4HW3
         public string Name { get; set; }
         public decimal? Budget { get; set; }
         public DateTime? StartedDate { get; set; }
+        public List<EmployeeProject> EmployeeProjects { get; set; } = new List<EmployeeProject>();
     }
 }

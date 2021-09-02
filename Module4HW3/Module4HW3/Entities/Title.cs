@@ -10,5 +10,6 @@ namespace Module4HW3
     {
         public int TitleId { get; set; }
         public string Name { get; set; }
+        public List<Employee> Employees { get; set; } = new List<Employee>();
     }
 }
